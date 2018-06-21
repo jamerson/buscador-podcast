@@ -1,0 +1,4 @@
+vcap-local.json
+node_modules
+.vscode
+requests.txt

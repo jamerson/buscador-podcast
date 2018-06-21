@@ -1,0 +1,30 @@
+{
+  "name": "busca-podcast",
+  "main": "server.js",
+  "description": "Buscador de episódios de podcasts",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameson/busca-podcast"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cloudant": "^1.10.0",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.19.1",
+    "express": "^4.15.x",
+    "feedparser": "^2.2.9",
+    "moment": "^2.22.1",
+    "watson-developer-cloud": "^3.4.2"
+  },
+  "author": "jamerson",
+  "license": "Apache-2.0"
+}
